@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8/>
+    <title>dropnet.gr</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: "Helvetica Neue", sans-serif;
+            color: #a0a0a0;
+            text-shadow: #000000 0 1px 3px;
+            font-size: 36px;
+        }
+        #logo {
+            display: none;
+            padding-top: 175px;
+        }
+        #us {
+            display: none;
+        }
+        #up {
+            width: 100%;
+            min-height: 50%;
+            height: auto;
+            background: #aaaaaa;
+        }
+        #down {
+            width: 100%;
+            min-height: 50%;
+            height: auto;
+            background: #1a171b;
+        }
+        * html #up {
+            height: 50%;
+        }
+        * html #down {
+            height: 50%;
+        }
+        .white {
+            color: #eeeeee;
+        }
+    </style>
+    <!--<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>-->
+    <script type="text/javascript">
+        // $(function() {$('#logo').fadeIn(3000, function() { $(this).delay(1000).fadeOut(2000, function() { window.location = 'index.html'; });});});
+        $(function () {
+            $('#logo').fadeIn(2500);
+            $('#us').delay(2500).fadeIn(2000);
+        });
+    </script>
+</head>
+<body>
+<div id="up">
+    <div id="logo">We design for <span class="white">you</span></div>
+    <div id="us">...not for us ;)</div>
+</div>
+<div id="down"></div>
+<!--<script src="http://dropnet.gr/_copyright/dropnet.js"></script>-->
+</body>
+</html>
